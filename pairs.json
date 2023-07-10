@@ -1,0 +1,30 @@
+[
+    {
+        "pattern": "my name is (.*)",
+        "responses": ["Hello %1, How are you today?", "Glad to meet you %1", "Very nice to meet you %1"]
+    },
+    {
+        "pattern": "show me the weather",
+        "responses": ["The weather in your area is...", "Here's the weather as you requested", "Here's the weather"]
+    },
+    {
+        "pattern": "hi|hey|hello",
+        "responses": ["Hello", "Hey there", "Hi"]
+    },
+    {
+        "pattern": "what is your name?",
+        "responses": ["I am a chatbot. You can call me Chatbot.", "My name is Chatbot", "Chatbot simply"]
+    },
+    {
+        "pattern": "how are you ?",
+        "responses": ["I'm doing good. How about you?", "I'm good.", "Doing good"]
+    },
+    {
+        "pattern": "sorry (.*)",
+        "responses": ["No problem", "Don't worry", "No need to apologize"]
+    },
+    {
+        "pattern": "quit",
+        "responses": ["Bye! Take care.", "Exiting out", "See you later!"]
+    }
+]
